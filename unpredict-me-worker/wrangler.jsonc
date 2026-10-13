@@ -1,0 +1,15 @@
+{
+  "name": "unpredict-me-signup",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-13",
+  "vars": {
+    "BREVO_LIST_ID": "3",
+    "BREVO_SENDER_EMAIL": "invite@unpredictme.com",
+    "BREVO_SENDER_NAME": "Annie @UnPredictMe",
+    "ALLOWED_ORIGINS": "https://unpredictme.com,https://www.unpredictme.com"
+  },
+  "ratelimits": [
+    {"name":"SIGNUP_RATE_LIMITER","namespace_id":"8174301","simple":{"limit":5,"period":60}},
+    {"name":"EMAIL_RATE_LIMITER","namespace_id":"8174302","simple":{"limit":1,"period":60}}
+  ]
+}

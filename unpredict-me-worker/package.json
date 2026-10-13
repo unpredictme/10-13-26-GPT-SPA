@@ -1,0 +1,1 @@
+{"name":"unpredict-me-signup","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"wrangler dev","deploy":"wrangler deploy","check":"wrangler deploy --dry-run","test":"node --test"},"devDependencies":{"wrangler":"4.149.0"},"engines":{"node":">=22.12.0"}}
